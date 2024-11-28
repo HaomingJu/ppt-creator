@@ -54,8 +54,8 @@ def addContext(slide_obj, text_dingwei, text_jiepou, text_zhuzhi, text_cifa):
 
     left = Inches(getInches(0))
     top = Inches(getInches(1.8))
-    width = Inches(getInches(18.39))
-    height = Inches(getInches(1.8))
+    width = Inches(getInches(13))
+    height = Inches(getInches(15))
     title_textbox = slide_obj.shapes.add_textbox(left, top, width, height)
     text_frame = title_textbox.text_frame
     text_frame.auto_size = MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT  # 自适应大小
@@ -84,15 +84,39 @@ def addOneFrame(ppt_obj, meta_file_path, title_text):
     # 添加标题
     addTitle(slide, title_text)
 
-    # 添加内容
-    addContext(slide, "耳聋", "AAA", "BBB", "CCC")
+
 
     # 添加备注
     notes_slide = slide.notes_slide
     text_frame = notes_slide.notes_text_frame
+    lines = None
     with open(meta_file_path, "r", encoding='utf-8') as file_handle:
-        lines = file_handle.read()
-        text_frame.text = str(lines)
+        lines = file_handle.readlines()
+        file_handle.seek(0)
+        tmp_lines = file_handle.read()
+        text_frame.text = tmp_lines
+
+
+    text_dingwei = "TODO"
+    text_jiepou = "TODO"
+    text_zhuzhi = "TODO"
+    text_cifa = "TODO"
+    for line in lines:
+        if line[1:3] == "定位":
+            text_dingwei = line[4:-1]
+        if line[1:3] == "解剖":
+            text_jiepou = line[4:-1]
+        if line[1:3] == "主治":
+            text_zhuzhi = line[4:-1]
+        if line[1:4] == "刺灸法":
+            text_cifa = line[5:-1]
+
+    print(">>> 定位 {}".format(text_dingwei))
+    print(">>> 解剖 {}".format(text_jiepou))
+    print(">>> 主治 {}".format(text_zhuzhi))
+    print(">>> 针刺 {}".format(text_cifa))
+    # 添加内容
+    addContext(slide, text_dingwei, text_jiepou, text_zhuzhi, text_cifa)
 
 
 if __name__ == "__main__":
@@ -103,11 +127,18 @@ if __name__ == "__main__":
                    "气冲穴", "髀关穴", "伏兔穴", "阴市穴", "梁丘穴", "犊鼻穴", "足三里穴", "上巨虚穴", "条口穴",
                    "下巨虚穴", "丰隆穴", "解溪穴", "冲阳穴", "陷谷穴", "内庭穴", "厉兑穴"]
 
+    SP_ACUPOINT = ["隐白穴", "大都穴", "太白穴", "公孙穴", "商丘穴", "三阴交穴", "漏谷穴",
+                   "地机穴", "阴陵泉穴", "血海穴", "箕门穴", "冲门穴", "府舍穴", "腹结穴",
+                   "大横穴", "腹哀穴", "食窦穴", "天溪穴", "胸乡穴", "周荣穴", "大包穴"]
 
-    sz = len(ST_ACUPOINT)
-    for index in range(len(ST_ACUPOINT)):
-        acupoint_name = ST_ACUPOINT[index]
-        ele_meta_file = "data" + os.sep + "足阳明胃经" + os.sep + acupoint_name + ".txt"
+    HT_ACUPOINT = ["极泉穴", "青灵穴", "少海穴", "灵道穴", "通里穴", "阴郄穴", "神门穴", "少府穴", "少冲穴"]
+    SI_ACUPOINT = ["少泽穴", "前谷穴", "后溪穴", "腕骨穴", "阳谷穴", "养老穴", "支正穴", "小海穴", "肩贞穴", "臑俞穴",
+                   "天宗穴", "秉风穴", "曲垣穴", "肩外俞穴", "肩中俞穴", "天窗穴", "天容穴", "颧髎穴", "听宫穴"]
+
+    sz = len(SI_ACUPOINT)
+    for index in range(len(SI_ACUPOINT)):
+        acupoint_name = SI_ACUPOINT[index]
+        ele_meta_file = "data" + os.sep + "手太阳小肠经" + os.sep + acupoint_name + ".txt"
         pinyin_obj = Pinyin()
         result = pinyin_obj.get_pinyin(acupoint_name)
         result_1 = result.split('-')
@@ -115,9 +146,9 @@ if __name__ == "__main__":
         for py_ele in result_1:
             R = R + py_ele[0].upper() + py_ele[1:]
 
-        title_text = "{}-{} {} ({}, ST{})".format(len(ST_ACUPOINT), index+1, acupoint_name, R, index+1)
+        title_text = "{}-{} {} ({}, ST{})".format(len(SI_ACUPOINT), index+1, acupoint_name, R, index+1)
         addOneFrame(prs, ele_meta_file, title_text)
 
 
 
-    prs.save('足阳明胃经.pptx')
+    prs.save('手太阳小肠经.pptx')

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c2fa374-df09-41df-91e2-d898edce9368" name="Changes" comment="添加忽略文件.gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pptCreator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/养老穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/前谷穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/后溪穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/听宫穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/天宗穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/天容穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/天窗穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/小海穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/少泽穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/支正穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/曲垣穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/秉风穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/肩中俞穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/肩外俞穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/肩贞穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/腕骨穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/臑俞穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/阳谷穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手太阳小肠经/颧髎穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/少冲穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/少府穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/少海穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/极泉穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/灵道穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/神门穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/通里穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/阴郄穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/手少阴心经/青灵穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/三阴交穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/公孙穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/冲门穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/周荣穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/商丘穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/地机穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/大包穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/大横穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/大都穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/天溪穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/太白穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/府舍穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/漏谷穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/箕门穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/胸乡穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/腹哀穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/腹结穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/血海穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/阴陵泉穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/隐白穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/足太阴脾经/食窦穴.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/上巨虚穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/上巨虚穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/下关穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/下关穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/下巨虚穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/下巨虚穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/不容穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/不容穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/丰隆穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/丰隆穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/乳根穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/乳根穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/人迎穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/人迎穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/伏兔穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/伏兔穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/关门穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/关门穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/内庭穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/内庭穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/冲阳穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/冲阳穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/厉兑穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/厉兑穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/四白穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/四白穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/地仓穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/地仓穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/外陵穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/外陵穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/大巨穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/大巨穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/大迎穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/大迎穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/天枢穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/天枢穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/太乙穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/太乙穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/头维穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/头维穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/屋翳穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/屋翳穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/巨髎穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/巨髎穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/库房穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/库房穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/归来穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/归来穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/承泣穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/承泣穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/承满穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/承满穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/条口穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/条口穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/梁丘穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/梁丘穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/梁门穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/梁门穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/气冲穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/气冲穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/气户穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/气户穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/气舍穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/气舍穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/水突穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/水突穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/水道穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/水道穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/滑肉门穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/滑肉门穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/犊鼻穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/犊鼻穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/缺盆穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/缺盆穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/膺窗穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/膺窗穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/解溪穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/解溪穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/足三里穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/足三里穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/阴市穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/阴市穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/陷谷穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/陷谷穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/颊车穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/颊车穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/足阳明胃经/髀关穴.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/足阳明胃经/髀关穴.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/足阳明胃经.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/足阳明胃经.pptx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2onTsXVp3NQYzFnFh5ro2iqdaif" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.main.executor": "Run",
+    "Python.simpletypes.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "settings.qodana"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c2fa374-df09-41df-91e2-d898edce9368" name="Changes" comment="" />
+      <created>1731504547504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731504547504</updated>
+    </task>
+    <task id="LOCAL-00001" summary="暂时完整的脚本">
+      <option name="closed" value="true" />
+      <created>1731596013814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731596013814</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加忽略文件.gitignore">
+      <option name="closed" value="true" />
+      <created>1731596074417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731596074417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="暂时完整的脚本" />
+    <MESSAGE value="添加忽略文件.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加忽略文件.gitignore" />
+  </component>
+</project>
