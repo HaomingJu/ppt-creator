@@ -1,1 +1,3 @@
 .idea/
+*.pptx
+venv/
